@@ -1,2 +1,1 @@
-import models.a_star_model from AStarModel
-import models.greedy_search_model from GreedySearchModel
+import models.base_model from BaseModel

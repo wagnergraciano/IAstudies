@@ -1,2 +1,0 @@
-class AStarModel:
-    pass
