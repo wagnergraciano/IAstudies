@@ -1,9 +1,9 @@
-from typing import Optional
+from typing import Union
 from pydantic import BaseModel
 
 
 class AStarSchemas(BaseModel):
-    data: Optional[list]  # np.zeros((13, 15))
+    data: Union[list, list]  # np.zeros((13, 15))
 
 
 class AStarSchemasResponse(AStarSchemas):

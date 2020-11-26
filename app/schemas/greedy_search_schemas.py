@@ -1,9 +1,10 @@
-from typing import Optional
+from typing import Union
 from pydantic import BaseModel
 
 
 class GreedySearchSchemas(BaseModel):
-    data: Optional[list]  # np.zeros((13, 15))
+    # Optional[list]  # np.zeros((13, 15))
+    data: Union[list, list]
 
 
 class GreedySearchSchemasResponse(GreedySearchSchemas):
