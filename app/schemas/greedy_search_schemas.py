@@ -1,13 +1,14 @@
-from typing import Union
+from typing import Optional
 from pydantic import BaseModel
 
 
 class GreedySearchSchemas(BaseModel):
-    data: Union[list, list]
+    data: Optional[list]
 
 
 class GreedySearchSchemasResponse(GreedySearchSchemas):
-    pass
+    class Config:
+        pass
 
 
 '''
