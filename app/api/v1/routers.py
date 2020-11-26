@@ -6,11 +6,11 @@ from fastapi import APIRouter, Depends, HTTPException, status
 router = APIRouter()
 
 
-@router.get("/greedy_search")
+@router.post("/greedy_search")
 def greedy_search():
     return {"Hello": "World"}
 
 
-@router.get("/a_star")
+@router.post("/a_star")
 def a_star():
     return {"Hello": "World"}
