@@ -1,0 +1,2 @@
+class GreedySearchModel:
+    pass

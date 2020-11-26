@@ -1,1 +1,5 @@
-from schemas.message import Message
+from schemas.message_schemas import MessageSchemas
+from schemas.base_schemas import AlgorithmsBaseSchemas, AlgorithmsResponseSchemas
+
+from schemas.a_star_schemas import AStarSchemas
+from schemas.greedy_search_schemas import GreedySearchSchemas
