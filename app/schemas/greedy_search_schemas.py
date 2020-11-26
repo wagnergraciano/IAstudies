@@ -3,7 +3,6 @@ from pydantic import BaseModel
 
 
 class GreedySearchSchemas(BaseModel):
-    # Optional[list]  # np.zeros((13, 15))
     data: Union[list, list]
 
 

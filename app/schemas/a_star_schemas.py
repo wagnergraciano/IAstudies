@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 
 class AStarSchemas(BaseModel):
-    data: Union[list, list]  # np.zeros((13, 15))
+    data: Union[list, list]
 
 
 class AStarSchemasResponse(AStarSchemas):
