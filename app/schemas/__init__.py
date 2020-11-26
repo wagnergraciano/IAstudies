@@ -1,1 +1,1 @@
-from app.schemas.message import Message
+from schemas.message import Message
