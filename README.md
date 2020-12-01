@@ -22,7 +22,10 @@ Para criar o ambiente execute: <br/>
 <strong>python3 -m venv myvenv</strong><br/><br/>
 Note que uma pasta chamada <i>myvenv</i> foi criada,
 então execute a partir da raiz do projeto o comando para ativa-la:<br/>
-<strong>source myvenv/bin/activate</strong><br/><br/>
+<strong>source myvenv/bin/activate</strong><br/>
+Para executar entre na pasta
+<strong>app</strong> e execute o comando:<br/>
+<strong>uvicorn api:app --reload</strong><br/>
 
 ### <strong>Ambiente Windows:</strong><br/>
 
@@ -31,6 +34,10 @@ Para criar o ambiente execute: <br/>
 Note que uma pasta chamada <i>myvenv</i> foi criada,
 então execute a partir da raiz do projeto o comando para ativa-la:<br/>
 <strong>. myvenv/Script/activate</strong><br/>
+
+Para executar entre na pasta
+<strong>app</strong> e execute o comando:<br/>
+<strong>uvicorn main:app --reload</strong><br/>
 
 ## :hammer: Instalação das Dependências:<br/>
 

@@ -31,6 +31,11 @@ router = APIRouter()
 # response_model=schemas.GreedySearchSchemasResponse
 
 
+@router.get("/home")
+def docs() -> Any:
+    return {"Acesse": "http://localhost:8000/docs"}
+
+
 @router.post("/greedy_search")
 def greedy_search(item: schemas.GreedySearchSchemas) -> Any:
     '''
