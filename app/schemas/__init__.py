@@ -1,2 +1,2 @@
-from schemas.a_star_schemas import AStarSchemas, AStarSchemasResponse
-from schemas.greedy_search_schemas import GreedySearchSchemas, GreedySearchSchemasResponse
+from schemas.a_star_schemas import AStarSchemas
+from schemas.greedy_search_schemas import GreedySearchSchemas
