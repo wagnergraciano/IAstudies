@@ -34,8 +34,6 @@ router = APIRouter()
 
 '''
 
-# response_model=schemas.GreedySearchSchemasResponse
-
 
 @router.post("/greedy_search")
 def greedy_search(item: schemas.GreedySearchSchemas) -> Any:
@@ -45,7 +43,6 @@ def greedy_search(item: schemas.GreedySearchSchemas) -> Any:
     return item
 
 
-# response_model=schemas.AStarSchemasResponse
 @router.post("/a_star")
 def a_star(item: schemas.AStarSchemas) -> Any:
     '''
