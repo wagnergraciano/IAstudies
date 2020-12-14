@@ -3,7 +3,8 @@ from pydantic import BaseModel
 
 
 class AStarSchemas(BaseModel):
-    data: Optional[list]
+    robots: Optional[dict]
+    pakage: Optional[list]
 
 
 '''

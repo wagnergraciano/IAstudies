@@ -3,7 +3,8 @@ from pydantic import BaseModel
 
 
 class GreedySearchSchemas(BaseModel):
-    data: Optional[list]
+    robots: Optional[dict]
+    pakage: Optional[list]
 
 
 '''

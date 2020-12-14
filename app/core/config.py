@@ -3,7 +3,7 @@ from pydantic import BaseSettings
 
 class Settings(BaseSettings):
     DEBUG: bool = True
-    ALLOOW_CREDENTIALS: bool = True
+    ALLOOW_CREDENTIALS: bool = False
     PORT: int = 8000
     HOST: str = "0.0.0.0"
     LOG_LEVEL: str = "info"
